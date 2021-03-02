@@ -125,8 +125,6 @@ USE_TZ = True
 #開発者が自由に決められる
 STATIC_URL = '/static/'
 
-#whitenoiseの設定
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 #静的ファイルが集められる先
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
